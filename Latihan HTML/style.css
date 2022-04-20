@@ -1,6 +1,21 @@
  #headingutama {
      color: blue;
  }
- .content {
+ .div1{
+     background-image:url(../images/fruitsalad.avif);
+     height: 768px;
+ }
+ #content1 {
      color : rgb(153, 20, 20);
+     text-align: justify;
+     letter-spacing: 1px;
+     word-spacing: 1px;
+ }
+ #content2{
+     color : green;
+     text-decoration: underline;
+     text-transform: uppercase;
+     text-indent: 10px;
+     line-height:60px;
+     text-shadow: 1px 1px 1px yellow;
  }
