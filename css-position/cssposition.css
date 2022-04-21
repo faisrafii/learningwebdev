@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:0;
+}
+.h-700{
+    height: 700px;
+}
+.bg-salmon{
+    background-color : salmon;
+}
+
+.bg-green{
+    background-color : green;
+}
+
+.position{
+    background : red;
+    padding : 20px;
+    position : sticky; 
+    /* fixed relative sticky absolute */
+    top : 10px;
+    right : -20px;
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 50px;
+    top: 50px;
+    background-color: teal;
+}
