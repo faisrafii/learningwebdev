@@ -1,0 +1,47 @@
+ul{
+    list-style: none;
+    text-align: right;
+    padding: 0;
+}
+.icon {
+    float : left;
+}
+.icon > h2 {
+    margin : 0;
+}
+li {
+    font-size: 16px;
+    padding : 15px 25px;
+    display : inline-block;
+}
+.green-button{
+    background-color: green;
+    font-style: italic;
+    color : white;
+}
+.mobile {
+    display : none;
+}
+.icon.mobile {  
+    background-color: black;
+    color : white ;
+}
+.center{
+    text-align: center;
+}
+img{
+    width: 100%;
+    max-width: 700px;
+
+}
+@media only screen and (max-width: 590px) {
+    html {
+        font-size : 10px;
+    }
+    .mobile {
+        display : block;
+    }
+    .dekstop {
+        display : none ;
+    }
+}
